@@ -168,14 +168,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **GitHub** - [@yourusername](https://github.com/SubhankarIITK)
+- **GitHub** - [SubhankarIITK](https://github.com/SubhankarIITK)
 - **Email** - subhankarsutradhar2004@gmail.com
-- **LinkedIn** - [Your Name](https://linkedin.com/in/yourname)
+- **LinkedIn** - [Subhankar Sutradhar](https://www.linkedin.com/in/subhankarsutradhar/)
 
 ---
 
 ⭐ **Star this repository if you found it helpful!**
 
-📚 **Check out my other projects:** [Your Portfolio](https://yourportfolio.com)
+📚 **Check out my other projects:** [Portfolio](https://yourportfolio.com)
 
 #pathfinding #algorithms #visualization #javascript #glassmorphism #webdev
