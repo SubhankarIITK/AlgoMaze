@@ -52,7 +52,7 @@ A stunning web-based visualization tool for popular pathfinding algorithms, buil
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/pathfinding-visualizer.git
+   git clone https://github.com/SubhankarIITK/AlgoMaze.git
    cd pathfinding-visualizer
    ```
 
@@ -168,8 +168,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **GitHub** - [@yourusername](https://github.com/yourusername)
-- **Email** - your.email@example.com
+- **GitHub** - [@yourusername](https://github.com/SubhankarIITK)
+- **Email** - subhankarsutradhar2004@gmail.com
 - **LinkedIn** - [Your Name](https://linkedin.com/in/yourname)
 
 ---
