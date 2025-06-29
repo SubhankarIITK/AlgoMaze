@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathfinding Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="header">
+        <h1>🗺️ Pathfinding Visualizer</h1>
+        <p>Interactive demonstration of graph traversal algorithms</p>
+    </div>
+
+    <div class="controls">
+        <select id="algorithm">
+            <option value="dijkstra">Dijkstra's Algorithm</option>
+            <option value="astar">A* Algorithm</option>
+            <option value="bfs">Breadth-First Search</option>
+            <option value="dfs">Depth-First Search</option>
+        </select>
+        <button class="btn btn-primary" id="visualize">Start Visualization</button>
+        <button class="btn btn-secondary" id="clearPath">Clear Path</button>
+        <button class="btn btn-info" id="clearAll">Clear All</button>
+        <button class="btn btn-secondary" id="generateMaze">Generate Maze</button>
+    </div>
+
+    <div class="mode-info" id="modeInfo">
+        Click and drag to draw walls. Set start (green) and end (red) points, then visualize!
+    </div>
+
+    <div class="stats">
+        <div class="stat">
+            <div class="stat-value" id="visitedCount">0</div>
+            <div class="stat-label">Visited</div>
+        </div>
+        <div class="stat">
+            <div class="stat-value" id="pathLength">0</div>
+            <div class="stat-label">Path Length</div>
+        </div>
+        <div class="stat">
+            <div class="stat-value" id="executionTime">0ms</div>
+            <div class="stat-label">Time</div>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid" id="grid"></div>
+    </div>
+
+    <div class="legend">
+        <div class="legend-item">
+            <div class="legend-color" style="background: #27ae60;"></div>
+            <span>Start</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: #e74c3c;"></div>
+            <span>End</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: #2c3e50;"></div>
+            <span>Wall</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: #3498db;"></div>
+            <span>Visited</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: #f39c12;"></div>
+            <span>Path</span>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
