@@ -90,7 +90,22 @@
                 document.getElementById('clearPath').addEventListener('click', () => this.clearPath());
                 document.getElementById('clearAll').addEventListener('click', () => this.clearAll());
                 document.getElementById('generateMaze').addEventListener('click', () => this.generateMaze());
-            }
+                let touchTimer;
+
+                grid.addEventListener('touchstart', (e) => {
+                    const target = e.target;
+                    if (!target.classList.contains('cell')) return;
+
+                        touchTimer = setTimeout(() => {
+                        this.handleRightClick({ target, preventDefault: () => {} });
+                            }, 600); // Long press after 600ms
+                        });
+
+                grid.addEventListener('touchend', () => {
+                    clearTimeout(touchTimer);
+                        });
+
+            }   
 
             handleCellClick(e) {
                 if (!e.target.classList.contains('cell')) return;
